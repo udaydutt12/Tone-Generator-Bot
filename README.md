@@ -4,6 +4,9 @@
 
 ## Install
 
+* First, install a chromedriver for your current google chrome browser version.
+* Put the path to this driver into ```/.env```.
+* Run the following commands to setup your virtual environment.
 ```
 python -m venv venv
 source ./venv/Scripts/activate
