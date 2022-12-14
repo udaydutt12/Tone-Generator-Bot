@@ -3,9 +3,9 @@ import os
 from dotenv import load_dotenv
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
+#from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.action_chains import ActionChains
+#from selenium.webdriver.common.action_chains import ActionChains
 
 
 class ToneGeneratorBot:
@@ -47,7 +47,7 @@ class ToneGeneratorBot:
         self.execute()
         
         
-class ToneGeneratorBot2:
+'''class ToneGeneratorBot2:
     def __init__(self, driver=None):
         self._playing = False
         self._website_url = os.environ.get('WEBSITE_URL2')
@@ -100,7 +100,7 @@ class ToneGeneratorBot2:
         self._driver.find_element(By.ID, 'play-button').click()
         
         self._playing = True
-        self.execute()
+        self.execute()'''
 
 if __name__ == '__main__':
     load_dotenv()
